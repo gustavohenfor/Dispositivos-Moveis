@@ -150,9 +150,7 @@ class _TradutorPageState extends State<TradutorPage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               const SizedBox(height: 20),
-
               Text(
                 palavra.portugues,
                 style: const TextStyle(
@@ -160,9 +158,7 @@ class _TradutorPageState extends State<TradutorPage> {
                   fontWeight: FontWeight.bold,
                 ),
               ),
-
               const SizedBox(height: 30),
-
               if (mostrarTraducao) ...[
                 Text(
                   palavra.ingles,
@@ -170,9 +166,7 @@ class _TradutorPageState extends State<TradutorPage> {
                     fontSize: 28,
                   ),
                 ),
-
                 const SizedBox(height: 10),
-
                 Text(
                   palavra.espanhol,
                   style: const TextStyle(
@@ -180,9 +174,7 @@ class _TradutorPageState extends State<TradutorPage> {
                   ),
                 ),
               ],
-
               const SizedBox(height: 40),
-
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
@@ -190,9 +182,7 @@ class _TradutorPageState extends State<TradutorPage> {
                     onPressed: palavraAnterior,
                     child: const Text('Anterior'),
                   ),
-
                   const SizedBox(width: 10),
-
                   ElevatedButton(
                     onPressed: alternarTraducao,
                     child: Text(
@@ -201,18 +191,14 @@ class _TradutorPageState extends State<TradutorPage> {
                           : 'Mostrar tradução',
                     ),
                   ),
-
                   const SizedBox(width: 10),
-
                   ElevatedButton(
                     onPressed: proximaPalavra,
                     child: const Text('Próxima'),
                   ),
                 ],
               ),
-
               const SizedBox(height: 20),
-
               Text(
                 '${indiceAtual + 1} / ${listaPalavras.length}',
                 style: const TextStyle(
