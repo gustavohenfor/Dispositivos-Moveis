@@ -198,16 +198,8 @@ void imprimirMensagem(Bbs bbs, int id) {
   print(mensagem.conteudo);
 }
 
-void imprimirEstatisticas(Bbs bbs) {
-  // TODO 11:
-  // Mostre:
-  // - quantidade de áreas
-  // - total de mensagens
-  // - mensagens novas
-  // - total de visualizações
-  //
-  // Todos os valores devem ser calculados.
-
+void imprimirEstatisticas(Bbs bbs) { 
+ 
   print('=== ESTATÍSTICAS ===');
   print('Áreas: ${bbs.areas.length}');
   print('Mensagens: ${bbs.totalMensagens}');

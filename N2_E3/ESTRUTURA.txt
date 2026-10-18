@@ -1,0 +1,24 @@
+flutter_agenda_eventos_atividade_base/
+|-- lib/
+|   |-- main.dart
+|   |-- app.dart
+|   |-- data/
+|   |   `-- eventos_iniciais.dart
+|   |-- models/
+|   |   `-- evento.dart
+|   |-- screens/
+|   |   |-- entrada_screen.dart
+|   |   |-- home_screen.dart
+|   |   |-- detalhes_evento_screen.dart
+|   |   |-- novo_evento_screen.dart
+|   |   |-- configuracoes_screen.dart
+|   |   `-- ciclo_vida_screen.dart
+|   |-- widgets/
+|   |   |-- evento_card.dart
+|   |   `-- cabecalho_agenda.dart
+|   `-- utils/
+|       `-- categorias.dart
+|-- README.md
+|-- GUIA_TODOS.md
+|-- ESTRUTURA.txt
+`-- pubspec.yaml

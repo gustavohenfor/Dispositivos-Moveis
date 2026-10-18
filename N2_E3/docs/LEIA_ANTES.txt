@@ -1,0 +1,4 @@
+Este e um projeto BASE de atividade.
+
+As partes marcadas com TODO_ATIVIDADE foram deixadas incompletas propositalmente.
+O objetivo e completar o comportamento usando os conceitos das aulas de elementos comuns do Flutter, Navigator, State/setState e AppLifecycleListener.
